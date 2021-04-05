@@ -1,0 +1,48 @@
+
+body{
+	
+}
+
+
+h1, h2 {
+	text-align: center;
+	font-variant: small-caps;
+	font-family: roboto ;
+}
+
+p {
+	text-indent: 2em ;
+	margin-left: 5em;
+	margin-right: 5em;
+	font-size: 1.5em ;
+	text-align: justify;
+}
+
+
+img {
+	opacity: 0.5;
+  }
+
+.element {
+	width: 100%;
+  	height: 100%;
+  	animation: pulse 150s infinite;
+}
+@keyframes pulse {
+0% {
+    background: #CD5D5D;  /* #02B6CC */
+}
+25% {
+    background: #E22359;   /* #E22359 */
+}
+50% {
+    background: #09C98F;    /* #09C98F */
+}
+75% {
+    background: #7746B8;    /* #7746B8 */
+}
+100% {
+    background: #02B6CC;    /*  #CD5D5D */
+
+}
+
